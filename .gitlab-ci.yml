@@ -22,3 +22,24 @@ Deploying_code :
     stage: Deploy
     script : 
         - echo "This project is deployed"
+
+Dev_Testing_job: 
+    stage: Test
+    script : 
+        - echo "This is Dev testing"
+
+
+PreProd_Testing_job: 
+    stage: Test
+    script : 
+        - echo "Testing the Pre-prod Testing"
+
+Prod Testing Testing_job: 
+    stage: Test
+    script : 
+        - echo "Testing the first project"
+
+Deployment on Lower env:
+    stage: Deploy
+    script :
+        - echo "Deploying on lower as well"
