@@ -11,7 +11,7 @@ build_job:
 Testing_job: 
     stage: Test
     script : 
-        -echo "Testing the first project"
+        - echo "Testing the first project"
 
 Push_the_Project_job:
     stage: Push
