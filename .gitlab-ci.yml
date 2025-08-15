@@ -6,19 +6,19 @@ stages:
 
 build_job:
     stage: Build
-    Script: 
+    script: 
         - echo "This Build is done by using command <docket build -t tag.>" 
 Testing_job: 
-    Stage: Test
-    Script : 
+    stage: Test
+    script : 
         -echo "Testing the first project"
 
 Push_the_Project_job:
-    Stage: Push
-    Script: 
+    stage: Push
+    script: 
         - echo "this ci is pushing the code"
 
 Deploying_code :
     stage: Deploy
-    Script : 
+    script : 
         - echo "This project is deployed"
