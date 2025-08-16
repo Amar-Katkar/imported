@@ -13,9 +13,9 @@ Testing_job:
     script : 
         - echo "Testing the first project"
 
-    Testing_job_parallal: 
+Testing_job_parallal: 
     stage: Test
-    script : 
+    script:
         - echo "Testing the first project Testing_job_parallal"
 
 Push_the_Project_job:
